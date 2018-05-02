@@ -1,0 +1,55 @@
+*{
+  margin: .5rem;
+  padding: .5rem;
+  font-family: 'Raleway', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  background-color: #F5F5DC;
+}
+
+img {
+  width:25%;
+  height:auto;
+  object-position: left;
+  }
+
+figure {
+  border: 3px solid teal;
+  padding: 1em;
+  margin: 25px;
+}
+
+container {
+  margin: 1em
+}
+  
+}
+header img {
+  margin: 2rem 0;
+}
+
+nav {
+  background-color: #c5e57e;
+  padding:1em;
+}
+
+#footer > p:first-child {
+    float: left;
+    text-align: left;
+    width: 33.3%;
+}
+
+#footer > p:nth-child(2) {
+    float: left;
+    text-align: center;
+    width: 33.4%;
+}
+
+#footer > p:last-child {
+    float: right;
+    text-align: right;
+    width: 33.3%;
+  margin-top: -150px;
+}
