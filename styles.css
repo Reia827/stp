@@ -77,6 +77,10 @@ article section h2 {
   color: #633e19;
 }
 
+article section h4 {
+  color: #80af34;
+}
+
 aside {
   width: 35%;
   display:inline-block;
