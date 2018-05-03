@@ -1,3 +1,4 @@
+/*stp styles*/
 *{
   margin: .5rem;
   padding: .5rem;
@@ -9,23 +10,33 @@ body, html {
   background-color: #E9E9E9;
 }
 
+header {
+  color: #633e19;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+#header > p:first-child {
+    float: bottom;
+    text-align: left;
+    width: 30%;
+  margin-bottom: -2.5em;
+}
+
+#header > p:last-child {
+    float: top;
+    text-align: center;
+    width: 90%;
+  margin-bottom: -.25em;
+}
+
+/*
 img {
   width:25%;
   height:auto;
   object-position: left;
-  }
-
-figure {
-  border: 3px solid teal;
-  padding: 1em;
-  margin: 25px;
-}
-
-container {
-  margin: 1em
-}
+  }*/
   
-}
 header img {
   margin: 2rem 0;
 }
@@ -33,6 +44,19 @@ header img {
 nav {
   background-color: #8FC33A;
   padding:1em;
+}
+
+a {
+  text-decoration: none;
+  color: #633e19;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+a:hover {
+  opacity: clear;
+  background-color:#caf090;
+  text-decoration: none;
 }
 
 article {
@@ -67,17 +91,22 @@ aside section {
     float: left;
     text-align: left;
     width: 33.3%;
+    font-size: 1em;
+    font-weight: 500
 }
 
 #footer > p:nth-child(2) {
     float: left;
     text-align: center;
     width: 33.4%;
+    font-size: .75em;
+    font-weight: 500;
+    color: #633e19;
 }
 
 #footer > p:last-child {
     float: right;
     text-align: right;
     width: 33.3%;
-  margin-top: -150px;
+    margin-top: -150px;
 }
