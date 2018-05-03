@@ -92,7 +92,9 @@ aside section {
 aside section h2 h3 {
   color: #633e19;
 }
-/*
+
+/* test aside
+
 #map {
   width: 90%;
   height: 300px;
@@ -129,6 +131,11 @@ aside section h2 h3 {
   padding: 2
 }
 */
+/*gallery begins here*/
+
+
+/* footer begins here */
+
 .container-1 {
   clear: both;
   display: flex;
@@ -160,7 +167,8 @@ aside section h2 h3 {
   text-align: center;
   color: white;
 }
-/*
+/* test footer
+
 #footer > p:first-child {
     float: left;
     text-align: left;
