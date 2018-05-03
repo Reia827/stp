@@ -101,3 +101,9 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+  
+  .portfolio p {
+   font-weight: 800;
+    color:#633e19;
+  }
