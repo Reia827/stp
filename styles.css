@@ -133,6 +133,15 @@ aside section h2 h3 {
 */
 /*gallery begins here*/
 
+.portfolio {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  
+  .portfolio img {
+    width: 100%;
+  }
+}
 
 /* footer begins here */
 

@@ -29,13 +29,6 @@ header {
     width: 90%;
     margin-bottom: -.25em;
 }
-
-/*
-img {
-  width:25%;
-  height:auto;
-  object-position: left;
-  }*/
   
 header img {
   margin: 2rem 0;
@@ -59,48 +52,7 @@ a:hover {
   background-color:#d2e7b0;
   text-decoration: none;
 }
-/*gallery begins here*/
-
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF TWO  */
-.span_2_of_2 {
-	width: 100%;
-}
-.span_1_of_2 {
-	width: 49.2%;
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
-}
-
+  
 /* footer begins here */
 
 .container-1 {
@@ -134,3 +86,18 @@ a:hover {
   text-align: center;
   color: white;
 }
+/*gallery begins here*/
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+}
+
+.portfolio {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
