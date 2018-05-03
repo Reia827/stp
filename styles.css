@@ -60,7 +60,7 @@ a:hover {
 }
 
 article {
-  width: 65%;
+  width: 60%;
   float: left;
   padding: 1.5% 0 4%;
   margin: 0 1%;
@@ -73,27 +73,59 @@ article section {
 }
 
 aside {
-  width: 30%;
+  width: 35%;
   display:inline-block;
   border: 2px solid #8FC33A;
-  margin: 1% 0;
+  margin: 2% 0;
+  padding: 1% 0;
 }
 
 aside section {
-  width: 90%;
+  width: 95%;
   background-color: red;
-  padding: 1% 2%;
+  padding: 0% 0%;
   margin: 0% auto;
   text-align: center;
 }
 
 #map {
-  width: 100%;
-  height: 400px;
+  width: 90%;
+  height: 300px;
   background-color: grey;
 }
+/*
+.container-2 {
+  clear: both;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-start;
+  border: 2px #8FC33A solid;
+  padding: 2
+}
 
+.box-4 {
+  flex: 1;
+}
+
+.box-5 {
+  flex: 1;
+}
+
+.container-3 {
+  clear: both;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-start;
+  border: 2px #8FC33A solid;
+  padding: 2
+}
+*/
 .container-1 {
+  clear: both;
   display: flex;
   align-items: flex-start;
   border: 2px #8FC33A solid;
