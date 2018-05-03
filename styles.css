@@ -89,8 +89,28 @@ aside section {
   text-align: center;
 }
 
-aside section h2 h3 {
+aside section img {
+  border: solid #633e19 2px;
+  padding: 1% 1%;
+}
+
+aside section h2, h3 {
   color: #633e19;
+}
+
+.sidebar-text {
+  color: #333333;
+  font-weight: 400;
+}
+
+.sidebar-hours {
+  color: #333333;
+  font-weight: 400;
+}
+
+.sidebar-link {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /* test aside
@@ -133,15 +153,6 @@ aside section h2 h3 {
 */
 /*gallery begins here*/
 
-.portfolio {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  
-  .portfolio img {
-    width: 100%;
-  }
-}
 
 /* footer begins here */
 
@@ -162,19 +173,24 @@ aside section h2 h3 {
 .box-1 {
   flex:1;
   text-align: center;
-  color: white;
+  color: lightgray;
+}
+
+.box-1 p {
+  font-size: 1.5em;
+  padding: 0;
 }
 
 .box-2 {
   flex:1;
   text-align: center;
-  color: white;
+  color: lightgray;
 }
 
 .box-3 {
   flex:2;
   text-align: center;
-  color: white;
+  color: lightgray;
 }
 /* test footer
 
