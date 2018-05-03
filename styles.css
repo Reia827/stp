@@ -56,7 +56,6 @@ a {
 }
 
 a:hover {
-  opacity: clear;
   background-color:#d2e7b0;
   text-decoration: none;
 }
@@ -85,19 +84,18 @@ aside {
 aside section {
   width: 95%;
   background-color: #d2e7b0;
-  padding: 0% 0%;
+  padding: 2% 0%;
   margin: 2% auto;
   text-align: center;
 }
 
-aside h2 h3 {
-  color:#633e19;
+aside section h2 h3 {
+  color: #633e19;
 }
 /*
 #map {
   width: 90%;
   height: 300px;
-  background-color: grey;
 }
 */
 /*
@@ -135,14 +133,14 @@ aside h2 h3 {
   clear: both;
   display: flex;
   align-items: flex-start;
-  background-color: #3b250f;
+  background-color: #452b11;
   border: 2px #633e19 solid;
-  padding: 2% 2%;
+  padding: 0% 0%;
   margin: 2% 2%;
 }
 
 .container-1 h3 {
-  color: white;
+  color: #d2e7b0;
 }
 
 .box-1 {
